@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamantine&display=swap');
+
+.products {
+  padding: 20px;
+}
+
+.products-nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.products-nav .logo {
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.products-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 20px;
+}
+
+.products-nav ul li {
+  margin: 0 15px;
+  position: relative;
+}
+
+.products-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.products-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  background-color: #444;
+  min-width: 160px;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown li {
+  display: block;
+  text-align: left;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.dropdown li a:hover {
+  background-color: #555;
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  background-color: #444;
+  min-width: 160px;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.dropdown li {
+  display: block;
+  text-align: left;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.dropdown li a:hover {
+  background-color: #555;
+}
+
+.products-content {
+  margin-top: 80px;
+}
+
+.products-content section {
+  margin-bottom: 40px;
+}
+
+.products-content h2 {
+  font-family: 'Adamantine', sans-serif;
+  color: #333;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container img{
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.image-text h1{
+    margin-left: 40px;
+    font-size: 2.5em;
+    font-family: 'Adamantine', sans-serif;
+}
+
+.image-text h1:hover {
+    color:#924b4b
+}

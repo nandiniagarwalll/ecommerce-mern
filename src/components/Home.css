@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Adamantine&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #A09AAF; 
+  color: white;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  position: relative;
+  padding: 20px; }
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 60px;
+}
+
+.logo img {
+  max-width: 100px; 
+  height: auto;
+}
+
+.content {
+  display: flex; 
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px; 
+}
+
+.websitename {
+  text-align: left;
+  font-family: 'Adamantine', serif; 
+  margin-left: 80px;
+}
+
+.websitename h1 {
+  font-size: 7rem; 
+}
+
+.websitename p {
+  font-size: 1.6rem; 
+}
+
+.nav {
+  margin-top: 80px; 
+  font-size: 1.2rem;
+  font-family:'Adamantine', serif ;
+  margin-left: 80px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.nav ul li a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.nav ul li a:hover {
+  color: #bdeae9; 
+}
+
+.imagesection {
+  flex: 1;
+}
+
+.imagesection img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.login-signup-button {
+  padding: 10px 20px;
+  background-color:#A09AAF ;
+  color: white;
+  border-radius: 6px;
+  border-color: black;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 1000px;
+}
+
+.login-signup-button :hover{
+  background-color: antiquewhite;
+}
